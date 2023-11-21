@@ -1,0 +1,49 @@
+.catalog-product-sm-container .top-pills-grid {
+    display: block;
+}
+.catalogue-product .top-pills {
+    position: absolute;
+}
+
+.original-price {
+    color: #aaa;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    text-decoration: line-through;
+}
+
+.price-promotional {
+    color: #ea2840;
+}
+.price-main-md, .price-promotional, .price-secondary-md {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+}
+
+.sprite-cmr_co-sm {
+    background-image: url(https://www.linio.com.co/assets/sprites/alice-retina-d28329521e-d28329521e.png);
+    background-position: -48.61111px -37.91667px;
+    background-size: 194.44444px 177.91667px;
+    height: 20px;
+    width: 70px;
+    vertical-align: 0;
+}
+.sprite {
+    display: inline-block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.catalogue-product .sponsored-text {
+    color: #666;
+    display: block;
+    font-size: .7rem;
+    margin-top: 0;
+    text-align: center;    
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
