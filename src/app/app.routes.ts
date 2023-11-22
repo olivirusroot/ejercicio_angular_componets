@@ -1,3 +1,5 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import {VistaDetallelsComponent} from './pages/vista-detallels/vista-detallels.component'
+export const routes: Routes = [
+    {path: "vista-detalle", component:VistaDetallelsComponent}
+];
