@@ -1,10 +1,11 @@
 import { Component, Input} from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-linio',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,RouterModule],
   templateUrl: './linio.component.html',
   styleUrl: './linio.component.css'
 })
